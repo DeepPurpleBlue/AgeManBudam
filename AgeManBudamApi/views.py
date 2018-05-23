@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from ambApi.models import Post
+from AgeManBudamApi.models import Post
 from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 @csrf_exempt
