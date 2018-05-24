@@ -25,3 +25,5 @@ def get_posts(request):
             posts_dict_list.append(post.as_dict())
         return JsonResponse(posts_dict_list,safe=False)
 
+def index(request):
+    return render(request,'index.html')
